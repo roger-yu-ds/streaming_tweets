@@ -1,0 +1,3 @@
+docker-compose run --rm --no-deps -u jovyan -v /media/movies/MDSI_BDE_AUT21_AT3/:/home/jovyan/work jupyter python /home/jovyan/work/src/producers/twitter_kafka_producer.py
+
+docker-compose run --rm --no-deps -u jovyan -v /media/movies/MDSI_BDE_AUT21_AT3/:/home/jovyan/work jupyter python /home/jovyan/work/src/utils/StreamToParquetScript.py
